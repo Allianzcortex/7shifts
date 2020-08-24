@@ -67,6 +67,7 @@ public class Calculator {
     public int add2(String numbers) throws Exception {
         if (numbers != null)
             numbers = numbers.replace("\n", "");
+
         return add1(numbers);
     }
 
